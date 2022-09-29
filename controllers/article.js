@@ -51,7 +51,7 @@ const create = (req, res) => {
 
     // Devolver el resultado
     return res.status(200).json({
-      status: "succes",
+      status: "success",
       article,
       message: "Article saved!",
     });
